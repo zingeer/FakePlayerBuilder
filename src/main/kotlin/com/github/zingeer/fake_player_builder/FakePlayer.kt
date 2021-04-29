@@ -69,6 +69,6 @@ class FakePlayer(
     }
 
     fun moveTo(location: Location) {
-        TODO("Not yet implemented")
+
     }
 }
