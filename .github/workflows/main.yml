@@ -33,7 +33,7 @@ jobs:
                 maven ("https://jitpack.io/")
             }
             dependencies {
-                implementation("com.github.zingeer", "fake_player_builder", "${{ steps.get_tag.outputs.tag }}")
+                implementation("com.github.zingeer", "FakePlayerBuilder", "${{ steps.get_tag.outputs.tag }}")
             }
             ```
           draft: false
