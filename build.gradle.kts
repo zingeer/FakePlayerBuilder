@@ -5,14 +5,13 @@ plugins {
 
 repositories {
     jcenter()
-    maven("https://gitlab.com/XjCyan1de/maven-repo/-/raw/master/")
     maven ("https://papermc.io/repo/repository/maven-public/")
 }
 
 dependencies {
     implementation(kotlin("stdlib"))
     compileOnly("com.destroystokyo.paper", "paper-api", "1.16.5-R0.1-SNAPSHOT")
-    compileOnly("org.yatopiamc:yatopia:1.16.4-R0.1-SNAPSHOT")
+    compileOnly(files("libs/yatopia-1.16.4-R0.1-SNAPSHOT.jar"))
 }
 
 tasks {
